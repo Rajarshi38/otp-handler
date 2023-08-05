@@ -1,0 +1,31 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+.otp-inputs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.otp-input {
+  max-width: 58px;
+  height: 70px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.form-btn {
+  width: 90px;
+  padding: 12px 10px;
+  align-self: center;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid #ccc;
+}
